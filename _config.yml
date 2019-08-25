@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: "Ambianic.ai"
+logo: "https://avatars2.githubusercontent.com/u/52052162?s=400&u=b4b018adc09940394a5475fb30fa4f6b56509bcc&v=4"
 description: "Helpful AI for Home and Business Automation"
 plugins:
   - "jekyll-github-metadata"
