@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - "jekyll-github-metadata"
 repository: ambianic/ambianic-web
