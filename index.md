@@ -36,7 +36,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-<a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Edit</a>
+This site is open source <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Improve this page</a>
+
 
 <p>This site is open source. {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}</p>
 
