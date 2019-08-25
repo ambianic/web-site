@@ -38,3 +38,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Edit</a>
 
+<p>This site is open source. {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}</p>
+
+
