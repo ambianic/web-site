@@ -3,4 +3,3 @@ title: "Ambianic.ai"
 description: "Helpful AI for Home and Business Automation"
 plugins:
   - "jekyll-github-metadata"
-repository: ambianic/ambianic-web
