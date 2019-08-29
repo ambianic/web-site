@@ -2,5 +2,6 @@
 
 We are preparing to launch...
 
+[View on Github](https://github.com/ambianic/ambianic)
 
 This site is open source <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Improve this page</a>
