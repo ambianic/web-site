@@ -1,0 +1,15 @@
+{
+  "short_name": "Pendana My",
+  "name": "Welcome to pendanamy.com",
+  "icons": [
+        {
+      "src": "/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://www.digitalrooar.com.au/pendana/",
+  "background_color": "#46BFE8",
+  "display": "standalone",
+  "theme_color": "#46BFE8"
+}
