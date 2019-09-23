@@ -1,0 +1,266 @@
+/* css only for hover effect all hover effect must write in this Media query */
+
+@media only screen and (min-width: 1200px) {
+.casesList .casesBox:first-child{
+	padding-top: 144px; 
+}
+.casesList .casesBox:last-child{
+	padding-bottom: 144px; 
+}
+
+}
+
+
+
+@media only screen and (min-width: 1368px) and (max-width: 1600px) {
+.bannerSec .bannerImg img{max-width: 920px;}
+
+}
+
+ 
+
+@media only screen and (min-width: 1200px) and (max-width: 1368px) {
+.bannerSec .bannerImg img{max-width: 800px;}
+
+
+}   
+
+    
+
+/* common css for below screen 1199 */
+
+@media only screen and (max-width: 1199px) {
+.bannerSec{padding-bottom: 40px}
+.bannerSec .bannerCon .bannerTitle{font-size: 48px;}
+
+.bannerSec .bannerImg{margin: 0 0 0 -245px;}
+.bannerSec .bannerImg img{max-width: 800px;}
+.bannerSec .bannerCon{margin-right: -40px;}
+.commonSec{padding: 60px 0;}
+div.casesList .casesBox{padding: 80px 0}
+
+.casesList .casesBox .casesBoxCon .casesTitle{font-size: 38px; padding-bottom: 20px;}
+.casesList .casesBox:nth-child(odd) .casesBoxImg, .casesList .casesBox:nth-child(even) .casesBoxImg{margin-left: 0; margin-right: 0;}
+.casesList .casesBox .casesBoxCon ul li{font-size: 16px;}
+
+.footerMain{padding: 160px 0 0}
+.footerMain:before{right: -340px;}
+.footerMain .footLogo img{max-width: 240px;}
+.footBox{margin-top: 30px;}
+}
+
+
+
+
+
+/* common css for below screen 991 */
+
+@media only screen and (max-width: 991px) {
+body{margin-top: 100px;}
+.headerMain{position: fixed; text-align: center; padding: 15px 0; background: #fff;  box-shadow: 0 0 6px rgba(0, 0, 0, 0.21); z-index: 999;}
+.headerMain .logo{ max-width: 300px; /*margin: auto;*/}
+.bannerSec .bannerCon{margin-right: 0; padding-top: 40px; text-align: center;}
+.bannerSec .bannerCon .bannerTitle {font-size: 40px;}
+.commonSec { padding: 40px 0;}
+.commonSec .secHead .secTitle{font-size: 38px;}
+.casesList .casesBox .casesBoxImg{margin-bottom: 30px;}
+.casesList .casesBox .casesBoxImg img{max-width: 400px; margin: auto; }
+.casesList .casesBox:nth-child(odd) .casesBoxCon{padding-left: 0;}
+.casesList .casesBox:nth-child(even) .casesBoxCon{padding-right: 0;}
+.casesList .casesBox .casesBoxCon .casesTitle { font-size: 36px;}
+.footerMain { padding: 120px 0 0;}
+.footerMain .footLogo{margin-bottom: 30px;}
+.footerMain p{margin-bottom: 30px;}
+.menuMain{padding-left: 0; margin-top: 25px;}
+
+.menuIcon {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}	
+.menuMain {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+    -webkit-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: auto;
+    padding-bottom: 0;
+    margin-top: 0;
+    z-index: 99;
+    height: 0;    
+    z-index: -1;
+
+}
+.menuMain.menu-drawer {
+	height: auto;
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0)
+}
+.menuMain ul {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0;
+    width: 100%;
+    text-align: left
+}
+.menuMain ul li{
+    float: left;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(234, 242, 249, 1);
+    padding: 0
+}
+.menuMain li:last-child {
+    border-bottom: none
+}
+.menuMain li.navBtn {
+    padding-top: 20px
+}
+
+.menuMain li a {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #39343a !important;
+    padding: 0; 
+    font-size: 14px;
+}
+}
+
+
+
+/* common css for below screen 767 */
+
+@media only screen and (max-width: 767px) {
+body{margin-top: 84px;}
+.menuMain{top: 84px;}
+
+.btn{min-width: 160px; font-size: 13px; padding: 12px 15px}
+.bannerSec {  padding-bottom: 20px;}
+.bannerSec .bannerCon .bannerTitle{font-size: 32px;}
+.bannerSec .bannerCon p{font-size: 15px; line-height: 1.8}
+.commonSec .secHead .secTitle{font-size: 30px;}
+
+.commonSec {padding: 20px 0;}
+div.casesList .casesBox{padding: 50px 0}
+.casesList .casesBox .casesBoxCon .casesTitle { font-size: 30px;}
+.casesList .casesBox .casesBoxImg img { max-width: 300px;}
+
+.footerMain {padding: 80px 0 0;}
+.footerMain .footLogo img{max-width: 200px;}
+.footerMain p{font-size: 16px;}
+.footTitle{margin-bottom: 20px;}
+.footBox{width: 330px;}
+.footNav li{font-size: 16px;}
+
+}
+
+@media only screen and (max-width: 568px) {
+.headerMain .logo {max-width: 220px;}
+.bannerSec .bannerCon .bannerTitle { font-size: 28px;}
+.commonSec .secHead .secTitle { font-size: 26px;}
+.casesList .casesBox .casesBoxCon .casesTitle { font-size: 26px;}
+.footerMain p { font-size: 14px;}
+.casesList .casesBox .casesBoxCon ul li {  font-size: 14px; margin-bottom: 10px;}
+.footLeft{width: 100%; text-align: center;}
+.footerMain .footLogo img{margin:auto; }
+.footRight{display: none;}
+.copyright{text-align: center;}
+}
+
+
+
+/* common css for below screen 479 */
+
+@media only screen and (max-width: 479px) {
+
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+}
+
+
+
+@media only screen and (max-width: 350px) {
+.bannerSec .bannerCon .bannerTitle {font-size: 26px;}
+.commonSec .secHead .secTitle {
+    font-size: 24px;
+}
+.casesList .casesBox .casesBoxCon .casesTitle {
+    font-size: 24px;
+}
+
+
+}
+
+
+
+/* common css for screen size between 568 to 767 */
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+
+
+}
+
+
+
+
+
+/* common css for screen size between 600 to 767 */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+
+
+
+
+/* common css for screen size between 768 to 1199 */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+
+
+}
+
+
+
+/* common css for screen size between 768 to 1023 */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+}
+
+
+
+/* common css for screen size between 1024 to 1199 */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
