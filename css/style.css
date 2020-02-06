@@ -6,7 +6,7 @@
 	-ms-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box
-}
+} 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
 	margin: 0;
 	padding: 0;
@@ -199,6 +199,114 @@ a:hover {
 	top: 0;
 	right: 0;
 	z-index: 12
+}
+.logo{
+	max-width: 280px;
+}
+
+.menuIcon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: 13px 9px
+}
+.menuIcon span {
+    display: block;
+    width: 22px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #103457;
+    margin: auto;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+.menuIcon span:before {
+    content: "";
+    width: 22px;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #103457;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+.menuIcon span:after {
+    content: "";
+    width: 22px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #103457;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+.menuIcon.close span {
+    background-color: transparent
+}
+.menuIcon.close span:before {
+    -webkit-transform: translateY(6px) rotate(45deg);
+    -ms-transform: translateY(6px) rotate(45deg);
+    transform: translateY(6px) rotate(45deg)
+}
+.menuIcon.close span:after {
+    -webkit-transform: translateY(-6px) rotate(-45deg);
+    -ms-transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-6px) rotate(-45deg)
+}
+
+.menuMain{
+	float: left; 
+	width: 100%; 
+	padding-left: 40px;
+}
+.menuMain ul{
+	list-style: none;
+}
+.menuMain ul li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+	padding: 0 14px;
+	text-transform: uppercase;
+	position: relative;
+}
+.menuMain ul li a{
+	color: #fff;
+	display: block;
+	position: relative;
+	padding: 14px 0;
+}
+.menuMain ul li a:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	margin: auto; 
+	transition: all 0.4s ease-in-out;
+}
+.menuMain ul li a:hover:before{
+	width: 40px;
 }
 
 /* Banner Style */
@@ -409,15 +517,18 @@ a:hover {
     border-radius: 60%;*/
     z-index: -1;
 }
-
+.footLeft{
+	float: left;
+	width: 50%;
+}
 .footerMain .footLogo{
 	display: block;
 	width: 100%;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 .footerMain .footLogo img{
 	max-width: 277px;
-	margin: auto;
+	/*margin: auto;*/ 
 }
 .footerMain p{
 	display: block;
@@ -436,4 +547,48 @@ a:hover {
 }
 .footerMain p a:hover{
 	text-decoration: underline;
+}
+
+.footRight{
+	float: right;
+	width: 50%;
+}
+.footBox{
+	float: right;
+	width: 400px;
+	margin-top: 75px;
+}
+.footTitle{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+.footNav{
+	display: block;
+	width: 100%;
+}
+.footNav li{
+	float: left;
+	width: 50%;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.4;
+	margin-bottom: 10px;
+}
+.footNav li a{
+	color: #fff;
+	transition: all 0.4s ease-in-out;
+}
+.footNav li a:hover{
+	padding-left: 10px;
+}
+
+.copyright{
+	display: inline-block; 
+	width: 100%;
+	vertical-align: top;
 }
