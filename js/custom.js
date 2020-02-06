@@ -3,6 +3,13 @@ jQuery(document).ready(function($) {
 
 svgConvert('.svgIcon');
 
+
+$('.menuIcon').click(function() {
+  $(this).toggleClass('close');
+  $('.menuMain').toggleClass('menu-drawer');
+  $('body').toggleClass('fixbody');
+});
+
 /* Custome tabing */
 $('.tab').click(function() {
   $('.tab').removeClass('active');
