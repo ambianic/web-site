@@ -1,6 +1,6 @@
 {
-  "short_name": "Pendana My",
-  "name": "Welcome to pendanamy.com",
+  "short_name": "Ambianic",
+  "name": "Welcome to Ambianic",
   "icons": [
         {
       "src": "/icons-512.png",
@@ -8,8 +8,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://www.digitalrooar.com.au/pendana/",
-  "background_color": "#46BFE8",
+  "start_url": "https://ambianic.ai",
+  "background_color": "#179aff",
   "display": "standalone",
-  "theme_color": "#46BFE8"
+  "theme_color": "#179aff"
 }
