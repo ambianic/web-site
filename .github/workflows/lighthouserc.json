@@ -4,7 +4,7 @@
       "numberOfRuns": 2
     },
     "assert": {
-      "preset": "lighthouse:no-pwa",
+      "preset": "lighthouse:recommended",
       "assertions": {
         "first-contentful-paint": ["warn", { "minScore": 0.6 }]
       }
