@@ -1,0 +1,13 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 2
+    },
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertions": {
+        "first-contentful-paint": ["warn", { "minScore": 0.6 }]
+      }
+    }
+  }
+}
