@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Ambianic</title>
+	<title>Case Studies - Ambianic</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -12,7 +13,6 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="blue">
 	<meta name="apple-mobile-web-app-title" content="Ambianic">
-	<meta name="description" content="Ambianic's mission is to make our homes and workspaces a little cozier. Ambianic is an Open Source Ambient Intelligence platform that puts local control and privacy first. It enables users to train and share custom AI models without compromising privacy."/> 
 	<link rel="apple-touch-icon" href="img/icons-512.png">
 	<link rel="manifest" href="js/manifest.json">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,12 +25,12 @@
 <body>
 	<div class="wrapper">
 		<!-- Header -->
-		<header class="headerMain">
+		<header class="headerMain innerHeader">
 			<div class="container">
-				<div class="row ">
+				<div class="row align-items-center">
 					<div class="col-8 col-lg-3 col-xl-5">
 						<div class="logo">
-							<a href="index.html" >
+							<a href="index.html">
 								<img src="img/logo.svg" alt="Ambianic" title="Ambianic" />
 							</a>
 						</div>
@@ -42,7 +42,7 @@
 							<ul>
 								<li><a href="https://docs.ambianic.ai/users/quickstart/" title="Try it now">Try it now</a>
 								</li>
-								<li><a href="https://blog.ambianic.ai/" title="Blog">Blog</a>
+								<li><a href="https://ambianic.github.io/ambianic-blog/" title="Blog">Blog</a>
 								</li>
 								<li><a href="https://docs.ambianic.ai/" title="Documentation">Documentation</a>
 								</li>
@@ -55,30 +55,20 @@
 			</div>
 		</header>
 		<!-- Banner -->
-		<section class="bannerSec">
+		<section class="innerBanner">
 			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-12 col-lg-6">
-						<div class="bannerCon">
-							<h1 class="bannerTitle">Helpful AI for Home & Business Automation</h1>
-							<p>Ambianic's mission is to make our homes and workspaces a little cozier. Ambianic is an Open Source Ambient Intelligence platform that puts local control and privacy first. It enables users to train and share custom AI models without compromising privacy.</p>	<a class="btn btn-shade" href="https://docs.ambianic.ai/users/quickstart/">Try it Now! (Beta)</a>
-							&nbsp;	<a class="btn btn-shade" href="https://github.com/ambianic"><i class="fab fa-github"></i> View on Github</a>
-						</div>
-					</div>
-					<div class="col-md-6 d-none d-lg-block">
-						<div class="bannerImg">
-							<img src="img/banner-img.jpg" alt="Home & Business Automation" width="1069" height="1008">
-						</div>
-					</div>
-				</div>
+				<h3 class="innerHed">Case Studies</h3>
+				<ul class="breadcrumbList">
+					<li><a href="index.html" title="Home">Home</a>
+					</li>
+					<li><span class="current" title="Case Studies">Case Studies</span>
+					</li>
+				</ul>
 			</div>
 		</section>
 		<!-- Content Part -->
 		<section class="commonSec">
 			<div class="container">
-				<div class="secHead">
-					<h2 class="secTitle text-center">Use Cases of Ambianic.ai</h2>
-				</div>
 				<div class="casesList">
 					<div class="casesBox">
 						<div class="row align-items-center ">
@@ -158,9 +148,7 @@
 				<div class="row justify-content-between">
 					<div class="col-12 col-md-auto">
 						<div class="footLogo">
-							<a href="index.html" >
-								<img src="img/white-logo.svg" alt="Ambianic" title="Ambianic" >
-							</a>
+							<img src="img/white-logo.svg" alt="">
 						</div>
 					</div>
 					<div class="col-12 col-md-auto">
@@ -187,7 +175,7 @@
 						<div class="footBox">
 							<h3 class="footTitle">Quick Links</h3>
 							<ul class="footNav">
-								<li><a href="Ambianic-Product-PDF.pdf" rel="noopener" target="_blank" title="Product PDF">Product PDF</a>
+								<li><a href="Ambianic-Product-PDF.pdf" target="_blank" title="Product PDF">Product PDF</a>
 								</li>
 								<li><a href="about-us.html" title="About Us">About Us</a>
 								</li>
@@ -206,15 +194,7 @@
 			</div>
 		</footer>
 	</div>
-
+</body>
 <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
-<script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('/sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
-}
-</script>	
-</body>
 </html>
