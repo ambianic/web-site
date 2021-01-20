@@ -1,4 +1,4 @@
-const version = "5.5.2020";
+const version = "1.20.2021";
 const cacheName = `wwwambianicai-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
